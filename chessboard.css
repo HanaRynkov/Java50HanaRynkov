@@ -1,0 +1,32 @@
+.board {
+    display: flex;
+    flex-direction: column;
+
+}
+.board-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 50vw;
+}
+.cell-black {
+    background-color: black;
+}
+.cell-white {
+    background-color: white;
+}
+.div-class {
+    width: 5vw;
+    height: 5vw;
+    border: solid 1px gray;
+
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+html {
+    height: 100%;
+}
